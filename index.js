@@ -1,8 +1,10 @@
-let cheerio = require('cheerio');
-let axios = require('axios');
-let { Configuration, OpenAIApi } = require("openai");
-let apikey = require('./key');
-let key = apikey.OpenAIAPI;
+const cheerio = require('cheerio');
+const axios = require('axios');
+const { Configuration, OpenAIApi } = require("openai");
+
+// Create a key.js file with the API key stored in a 'const key' and export it with, module.exports.apikey = key;
+const apikey = require('./key');
+const key = apikey.OpenAIAPI;
 
 
 var text, url;
