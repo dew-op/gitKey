@@ -1,0 +1,18 @@
+body {
+    background-color: antiquewhite;
+    padding: 1rem;
+    justify-content: center;
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+p {
+    border-radius: 6px;
+    border: 5px inset brown;
+    margin: auto 10px;
+    font-size: 22px;
+
+    padding: 10px;
+    display: inline-flex;
+}
